@@ -60,6 +60,9 @@ coverage.xml
 */migrations/*.db-shm
 */migrations/*.db-journal
 
+# Pytest
+.pytest_cache
+
 # Node modules (if using frontend tools)
 node_modules/
 
