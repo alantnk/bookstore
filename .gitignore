@@ -1,0 +1,67 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+*/migrations/*.sqlite3
+*/migrations/*.log
+*/migrations/*.bak
+*/migrations/*.swp
+*/migrations/*.swo
+*/migrations/*.orig
+*/migrations/*.rej
+*/migrations/*.tmp
+*/migrations/*.db
+*/migrations/*.sqlite
+*/migrations/*.sqlite3
+*/migrations/*.db-journal
+*/migrations/*.db-wal
+*/migrations/*.db-shm
+*/migrations/*.db-wal
+*/migrations/*.db-shm
+*/migrations/*.db-journal
+
+# Node modules (if using frontend tools)
+node_modules/
+
+# Sandbox
+__lab/
