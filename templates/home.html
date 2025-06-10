@@ -3,4 +3,24 @@
 
 {% block content %}
 <h1>This is our home page.</h1>
+{% if user.is_authenticated %}
+<p>Hi, {{user.email}}</p>
+<p>
+<form action="{% url 'logout' %}" method="post">
+    {% csrf_token %}
+
+    <button>Log Out</button>
+</form>
+</p>
+
+{% else %}
+<p>You are not logged in!</p>
+<div>
+    <a href="{% url 'login' %}"><button>Log In</button></a>
+    <a href="{% url 'signup' %}"><button>Sign Up</button></a>
+</div>
+
+
+{% endif %}
+
 {% endblock content %}
