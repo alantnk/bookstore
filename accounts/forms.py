@@ -6,7 +6,7 @@ from django.contrib.auth.forms import (
 )
 
 
-class CustomUserCreationForm(UserCreationForm):
+class AccountCreationForm(UserCreationForm):
     usable_password = None
 
     class Meta:
@@ -18,7 +18,7 @@ class CustomUserCreationForm(UserCreationForm):
         )
 
 
-class CustomUserChangeForm(UserChangeForm):
+class AccountChangeForm(UserChangeForm):
     class Meta:
         model = get_user_model()
         fields = (
