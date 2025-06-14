@@ -9,6 +9,12 @@ services:
     web:
         build: .
         command: python manage.py runserver 0.0.0.0:8000
+        environment:
+            - "DATABASE_ENGINE=django.db.backends.postgresql"
+            - "DATABASE_URL=postgresql://pgadm:masterkey@db:5432/pgadm"
+            - "DJANGO_SECRET_KEY=a1b2c3d4f5e6"
+            - "DJANGO_DEBUG=1"
+
         volumes:
             - .:/code
         ports:
