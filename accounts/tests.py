@@ -30,7 +30,6 @@ class AccountTests(TestCase):
 
 
 class SignupPageTests(TestCase):
-    # new
     username = "newuser"
     email = "newuser@email.com"
 

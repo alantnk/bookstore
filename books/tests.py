@@ -40,5 +40,5 @@ class BookTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(no_response.status_code, 404)
         self.assertContains(response, "Harry Potter")
-        self.assertContains(response, "An excellent review")  # new
+        self.assertContains(response, "An excellent review")
         self.assertTemplateUsed(response, "books/book_detail.html")
