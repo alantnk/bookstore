@@ -8,7 +8,8 @@
 - `docker-compose down`: to remove all containers
 
 ## Flow
-- /admin - Create users, books and reviews
+- /accounts/signup/ - Register new user
+- /admin - Create books and reviews
 - /books - List books (protected). Add permission 'Can read all books' in django admin
 - /books/\<uuid\> - Show book details
 - /books/search/?q=foo - Search books by title __or__ author

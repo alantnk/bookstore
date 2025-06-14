@@ -162,6 +162,8 @@ DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
 
 # Allauth settings
 ACCOUNT_LOGOUT_REDIRECT = "home"
+ACCOUNT_LOGOUT_ON_PASSWORD_CHANGE = True
+ACCOUNT_LOGIN_ON_PASSWORD_RESET = True
 SITE_ID = 1
 AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
