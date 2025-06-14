@@ -150,6 +150,8 @@ LOGIN_REDIRECT_URL = "home"
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
+DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
+
 # Allauth settings
 ACCOUNT_LOGOUT_REDIRECT = "home"
 SITE_ID = 1
