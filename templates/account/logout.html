@@ -9,4 +9,7 @@
     {{ form|crispy }}
     <button class="btn btn-danger" type="submit">Log Out</button>
 </form>
+<p>
+    <a href="{% url 'account_change_password' %}">Change password</a>
+</p>
 {% endblock content %}
