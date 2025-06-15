@@ -5,6 +5,7 @@
 - `docker-compose exec web python3 manage.py migrate`: to run migrations
 - `docker-compose exec web python3 manage.py createsuperuser`: to create django admin user
 - `docker-compose exec web pytest` to run tests
+- `docker-compose logs` to check logs (email console)
 - `docker-compose down`: to remove all containers
 
 ## Routes
