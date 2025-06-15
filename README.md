@@ -7,8 +7,9 @@
 - `docker-compose exec web pytest` to run tests
 - `docker-compose down`: to remove all containers
 
-## Flow
+## Routes
 - /accounts/signup/ - Register new user
+- /accounts/login/ - Log in user
 - /admin - Create books and reviews
 - /books - List books (protected). Add permission 'Can read all books' in django admin
 - /books/\<uuid\> - Show book details
